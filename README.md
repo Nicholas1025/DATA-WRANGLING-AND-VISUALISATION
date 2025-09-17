@@ -33,6 +33,7 @@ The project applies data wrangling and visualisation techniques to the [Netflix 
 │   ├── plot.py                        # Plotting functions
 │   ├── utils.py                       # Utility functions
 │   └── main.py                        # Main pipeline runner
+├── index.html                         # ---Double click it to review all the data!---
 ├── requirements.txt                   # Project dependencies
 └── README.md                          # Project documentation
 ```
