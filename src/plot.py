@@ -48,9 +48,7 @@ def _save_figure(save: Optional[Union[str, Path]] = None):
         print(f"Figure saved to: {save_path}")
 
 
-# ---------------------------
-# 1) 折线图：年度产出趋势（按类型）
-# ---------------------------
+
 def line_count_by_year(df: pd.DataFrame, save: Optional[Union[str, Path]] = None):
     """
     Line plot: number of titles by release_year × type.
