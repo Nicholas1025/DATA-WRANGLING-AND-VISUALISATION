@@ -24,10 +24,6 @@ The project applies data wrangling and visualisation techniques to the [Netflix 
 │   ├── movie_duration_distribution.png
 │   ├── duration_by_type.png
 │   └── duration_vs_year.png
-├── notebooks/
-│   ├── 01_wrangling.ipynb             # Data cleaning and preprocessing
-│   ├── 02_eda.ipynb                   # Exploratory data analysis
-│   └── 03_visualisation.ipynb         # Visualisation
 ├── src/
 │   ├── clean.py                       # Data cleaning functions
 │   ├── plot.py                        # Plotting functions
@@ -54,6 +50,8 @@ The project applies data wrangling and visualisation techniques to the [Netflix 
    ```
 
 3. Run the pipeline:
+   ( Before you run, you can delete all the csv/png, inside the data/processed/...csv
+   and /figures/...png ) 
    ```bash
    # Clean dataset + generate processed files
    py -m src.main --step clean
